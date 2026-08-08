@@ -1,0 +1,5 @@
+{"timestamp":"2026-08-08T12:07:38.621Z","eventType":"AUTH_SUCCESS","actor":{"userId":"usr-admin-1","handle":"unauthenticated","role":"ADMIN","ip":"0.0.0.0"},"details":{"action":"USER_LOGIN"}}
+{"timestamp":"2026-08-08T12:07:38.946Z","eventType":"AUTH_FAILED","actor":{"userId":"usr-admin-1","handle":"unauthenticated","role":"ADMIN","ip":"0.0.0.0"},"details":{"ip":"::1","failedAttempts":1}}
+{"timestamp":"2026-08-08T12:07:39.259Z","eventType":"AUTH_SUCCESS","actor":{"userId":"usr-student-1","handle":"unauthenticated","role":"STUDENT","ip":"0.0.0.0"},"details":{"action":"USER_LOGIN"}}
+{"timestamp":"2026-08-08T12:07:39.264Z","eventType":"PRIVILEGE_CHECK","actor":{"userId":"usr-student-1","handle":"unauthenticated","role":"STUDENT","ip":"0.0.0.0"},"details":{"requiredRoles":["ADMIN"],"userRole":"STUDENT","path":"/api/v1/moderation/reports","status":"DENIED"}}
+{"timestamp":"2026-08-08T12:07:39.277Z","eventType":"TOKEN_REFRESH","actor":{"userId":"usr-admin-1","handle":"unauthenticated","role":"ADMIN","ip":"0.0.0.0"},"details":{"action":"TOKEN_ROTATION_SUCCESS"}}
